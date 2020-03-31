@@ -17,7 +17,7 @@ body {
 }
 
 
-.hidden {
+.myhidden {
     opacity: 0;
 }
 
@@ -26,8 +26,8 @@ body {
     position: absolute;
     background-color: white; 
     transform: translate(-25%, -25%); 
-    
-    overflow: hidden; 
+    overflow: hidden;
+     
 }
 
 .dot img {
@@ -54,13 +54,16 @@ body {
     left: 50%;
 }
 
+
 #dot8 {
     overflow: visible !important;
 }
 
+
 #dot8 img {
     position: absolute;
     top: -22%;
+    visibility: visible;
 }
 
 
